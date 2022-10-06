@@ -1,10 +1,13 @@
 import React from 'react';
+import UseEffect from './components/UseEffect/UseEffect';
+// import UseState from './components/UseState/UseState';
 
 const App = () => {
   return (
-    <>
-      <h2>Hello Bangladesh!!!</h2>
-    </>
+    <div>
+      {/* <UseState></UseState> */}
+      <UseEffect></UseEffect>
+    </div>
   );
 };
 
